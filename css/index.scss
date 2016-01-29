@@ -1,0 +1,118 @@
+/* CSS Document */
+
+/*The css reset is the Eric Meyer's Reset as talked about on page 18 in the book "Responsive Web Design" by Ethan Marcotte*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/*Genral sytles*/
+
+#wrapper {margin:0 auto;	
+			width:90%; /* 1500px/1530px */
+			background-color: #DFDAC7;		 
+}
+
+body {background-color: #83831F;
+			padding-top: 25px;
+}
+
+p, h1, li {font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1 {font-size:1.5em; /* 24pt/16pt */
+		font-style:normal;
+		font-weight:bold;
+		text-align:center;
+}
+
+h2 {font-size:1.125em; /* 18pt/16pt*/
+		font-style:normal;
+		font-weight:800;		
+}
+
+p {font-size:1em; /*16pt/16pt*/
+		font-style:normal;
+		font-weight:normal;
+}
+
+/*End of Genral Styles*/
+
+/*Header Styles*/
+
+#header { padding-left: 1%; /*15px/1500px*/
+			padding-right: 1%; /*15px/1500px*/
+			padding-top: 10px;
+}
+
+/*end of Header Styles*/
+
+/*Nav Styles*/
+
+#nav { padding-left: 1%; /*30px/1500px*/
+		padding-bottom: 20px;
+		padding-top:15px;
+		margin-left:23%;
+}
+
+#nav ul {list-style:none;
+}
+
+#nav ul li {display:inline;
+}
+
+.navborder {border-left:solid;
+						border-width:thin;
+						border-color:#000;
+						padding-left:2%; 
+}
+
+/*End of Nav Styles*/
+
+/*Picture Styles*/
+
+img {max-width: 30%;
+}
+
+img.pic {display:block;
+			margin-left: 35%;
+}
+
+#picture {padding-bottom:20px;
+}
+
+/*end of Picture Styles*/
+
+/*Link Styles*/
+
+a:link {color: #040F01;}
+
+a:hover {color: #AE9C2C;}
+
+a:visited {color: #7A4012;}
+
+/*Footer Styles*/
+
+#footer {text-align:center;
+         padding-bottom: 10px;
+}
+
+/*end of Footer Style*/
+
